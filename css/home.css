@@ -1,3 +1,19 @@
+/*Font Import*/
+@font-face {
+	font-family: oswald;
+	src:url('../fonts/Oswald.ttf'); 
+}
+@font-face {
+	font-family: anton;
+	src:url('../fonts/anton.ttf'); 
+}
+/**/
+body{
+	background-image: url("../images/background.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5em; 
+}
 /*Header*/
 header{
 	background: linear-gradient(180deg,#f1f1f1,#9e9e9e);
@@ -32,4 +48,78 @@ a.nav-link:hover{
 nav{
 	background-color: #f2f6f3;
 	max-height: 3.2em;
+}
+/*About us Box*/
+div.container.about{
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: gray;
+	box-shadow: 10px 10px 10px 5px gray;
+	background-color: white;
+	margin-top: 3%;
+}
+div.container p{
+	font-family: oswald;
+	text-align: center;
+}
+div.container h1{
+	padding-top: 5%;
+	font-family: anton;
+}
+/*Note And Event Container*/
+/*Message*/
+div.col-8{
+	float: left;
+}
+div.container-fluid.message{
+	background-color: white;
+	margin-top: 5%;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	overflow: hidden;
+}
+h3,h4{
+	font-family: anton;
+}
+div.msg{
+	max-width: 80%;
+	padding-left: 4em;
+	padding-top: 20px;
+}
+div.msg p{
+	font-family: cursive;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+/*Upcomig Events*/
+div.col-3 ul{
+	padding-top: 10%;
+}
+div.col-3 h4{
+	text-align: center;
+	text-decoration: underline;
+}
+div.col-3{
+	padding: 20px 5px 5px 5px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px 2px gray;
+	height: 30em;
+}
+div.slideshow{
+	margin-top: 3%;
+}
+div.container h1{
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 20px 20px 20px 20px;
+	margin-top: 5%;
+	border-style: solid;
+	border : 2px 2px 2px 2px black;
+}
+
+div.container{
+
 }
