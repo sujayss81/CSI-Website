@@ -18,6 +18,10 @@ body{
 header{
 	background: linear-gradient(180deg,#f1f1f1,#9e9e9e);
 }
+img[src="images/csi_header.png"]{
+	width: 100%;
+	height: auto;
+}
 /*Nitte Image*/
 img[src="images/nmamitbanner.jpg"]{
 	width: 100%;
