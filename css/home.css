@@ -140,7 +140,7 @@ div.carousel-item img{
 	height: 30em;
 	object-fit: fill;
 }
-@media (min-width: 100px) and (max-width: 768px){
+@media (min-width: 477px) and (max-width: 768px){
 	div.col-4{
 	flex: 0 0 50%;
   	max-width: 50%;
@@ -171,12 +171,17 @@ div.carousel-item img{
   		text-align: center;
   		height:20em;
 	}
+	/*About*/
+	div.container.about{
+		margin-top: 3em;
+	}
 	/*Message Mobile*/
 	div.msg{
 		padding-left: 2em;
-		width: 100%;
+		max-width: 100%;
 	}
 	div.container-fluid.message{
+		margin-top: 5em;
 		padding-left: 0px;
 	}
 	div.col-8 p{
@@ -196,5 +201,49 @@ div.carousel-item img{
 	div.col-4{
 	flex: 0 0 33.333333%;
   	max-width: 33.333333%;
+	}
+}
+
+@media (min-width: 100px) and (max-width: 477px){
+	div.container.slideshow{
+		margin-top: 2em;
+		width: 25em;
+	}
+	div.container.slideshow img{
+		height: 17em;
+	}
+	/*NMAMIT Image*/
+	img[src="images/nmamitbanner.jpg"]{
+		
+	}
+		/*About*/
+	div.container.about{
+		margin-top: 3em;
+	}
+		/*Message Mobile*/
+	div.msg{
+		padding-left: 2em;
+		max-width: 100% !important;
+	}
+	div.container-fluid.message{
+		margin-top: 5em;
+		padding-left: 0px;
+	}
+	div.col-8 p{
+		width: 100%;
+	}
+		/*Upcoming Events mobile*/
+	div.col-8{
+		flex: 0 0 100%;
+  		max-width: 100%;
+	}
+	div.col-3{
+		margin-left: 1em;
+		margin-top: 1.5em; 
+		float: left;
+		flex: 0 0 100%;
+  		max-width: 100%;
+  		text-align: center;
+  		height:20em;
 	}
 }
