@@ -1,0 +1,57 @@
+/*Font Import*/
+@font-face {
+	font-family: oswald;
+	src:url('../fonts/Oswald.ttf'); 
+}
+@font-face {
+	font-family: anton;
+	src:url('../fonts/anton.ttf'); 
+}
+/**/
+body{
+	background-image: url("../images/background.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5em; 
+	background-attachment: fixed;
+	background-position: center;
+}
+/*Header*/
+header{
+	background: linear-gradient(180deg,#f1f1f1,#9e9e9e);
+}
+img[src="images/csi_header.png"]{
+	width: 50%;
+}
+/*Navbar*/
+div.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+ul{
+	margin-left: 6%;
+}
+li{
+	padding-right: 3em;
+	color: black;
+}
+a.nav-link{
+	color: black;
+}
+a.nav-link:hover{
+	color: #3f51b5;
+	font-weight: 600;
+}
+nav{
+	background-color: #f2f6f3;
+	text-align: center;
+}
+/*------------------------*/
+h1{
+	text-align: center;
+	font-family: oswald;
+	padding-top: 5px;
+}
+div.container{
+	padding-top: 2em;
+}
