@@ -13,6 +13,8 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 5em; 
+	background-attachment: fixed;
+	background-position: center;
 }
 /*Header*/
 header{
@@ -98,6 +100,14 @@ div.img img{
 .title h2{
 	padding-bottom: 1em;
 	text-align: center;
+}
+.col-4{
+	float: left;
+}
+div.container{
+	padding-left: 0px;
+	padding-right: 0px;
+
 }
 /*Breakpoints*/
 @media (min-width: 769px) and (max-width: 1200px){
