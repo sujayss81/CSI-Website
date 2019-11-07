@@ -97,6 +97,7 @@ div.img img{
 }
 .title h2{
 	padding-bottom: 1em;
+	text-align: center;
 }
 /*Breakpoints*/
 @media (min-width: 769px) and (max-width: 1200px){
