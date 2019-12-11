@@ -12,7 +12,6 @@ body{
 	background-image: url("../images/background.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 5em; 
 	background-attachment: fixed;
 	background-position: center;
 }
@@ -26,7 +25,7 @@ img[src="images/csi_header.png"]{
 /*Nitte Image*/
 img[src="images/nmamitbanner.jpg"]{
 	width: 100%;
-	height: 27em;
+	height: 35em;
 	margin: 0 0 0 0;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -90,7 +89,7 @@ h3,h4{
 	font-family: anton;
 }
 div.msg{
-	max-width: 80%;
+	max-width: 90%;
 	padding-left: 4em;
 	padding-top: 20px;
 }
@@ -99,6 +98,7 @@ div.msg p{
 	padding-top: 0.5em;
 	padding-bottom: 1em;
 	padding-left: 1em;
+
 }
 /*Upcomig Events*/
 .col-3{
@@ -134,7 +134,7 @@ div.container h1{
 /*Carousal*/
 div.container.slideshow{
 	width: 50em;
-	height: 50em;
+	height: 35em;
 }
 div.carousel-item img{
 	height: 30em;

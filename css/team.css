@@ -12,7 +12,8 @@ body{
 	background-image: url("../images/background.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 5em; 
+	background-attachment: fixed;
+	background-position: center;
 }
 /*Header*/
 header{
