@@ -140,13 +140,16 @@ div.carousel-item img{
 	height: 30em;
 	object-fit: fill;
 }
-@media (min-width: 477px) and (max-width: 768px){
+@media (min-width: 425px) and (max-width: 768px){
 	div.col-4{
 	flex: 0 0 50%;
   	max-width: 50%;
 	}
 	img[src="images/csi_header.png"]{
 	width: 80%;
+	}
+	img[src="images/nmamitbanner.jpg"]{
+	display: none;
 	}
 	/*Slideshow mobile*/
 	div.carousel-item img{
@@ -155,7 +158,7 @@ div.carousel-item img{
 	}
 	div.container.slideshow{
 	width: 30em;
-	height: 50em;
+	height: 19em;
 	}
 	/*Upcoming Events mobile*/
 	div.col-8{
