@@ -98,11 +98,14 @@ iframe{
 
 	}
 	div.mapouter,div.gmap_canvas{
-		width: 27.5em;
+		width: 26.5em;
 	}
 	ul.smedia{
 		margin-left: -70px;
 		margin-top: 1em;
+	}
+	.navbar-brand{
+		width: 50% !important;
 	}
 }
 @media (min-width: 375px) and (max-width: 425px){
@@ -125,11 +128,14 @@ iframe{
 
 	}
 	div.mapouter,div.gmap_canvas{
-		width: 24em;
+		width: 23em;
 	}
 	ul.smedia{
 		margin-left: -70px;
 		margin-top: 1em;
+	}
+	.navbar-brand{
+		width: 50% !important;
 	}
 }
 

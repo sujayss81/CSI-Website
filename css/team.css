@@ -171,4 +171,7 @@ div.ih-item.circle.effect3 .info h3{
 	div.col-4.resgrid2{
 		width: 100%;	
 	}
+	.navbar-brand{
+		width: 50% !important;
+	}
 }

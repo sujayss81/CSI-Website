@@ -102,6 +102,9 @@ div.img img{
 	img[src="images/csi_header.png"]{
 	width: 80%;
 	}
+	.navbar-brand{
+		width: 50% !important;
+	}
 }
 /*GAllery text color*/
 .g{

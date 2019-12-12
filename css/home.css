@@ -212,6 +212,9 @@ div.carousel-item img{
 }
 
 @media (min-width: 375px) and (max-width: 425px){
+	.navbar-brand{
+		width: 50% !important;
+	}
 	div.container.slideshow{
 		margin-top: 2em;
 		width: 23em;

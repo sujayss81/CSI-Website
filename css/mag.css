@@ -55,3 +55,8 @@ h1{
 div.container{
 	padding-top: 2em;
 }
+@media (min-width: 375px) and (max-width: 425px){
+	.navbar-brand{
+		width: 50% !important;
+	}
+}
