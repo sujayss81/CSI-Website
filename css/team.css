@@ -141,3 +141,34 @@ div.ih-item.circle.effect3 .info h3{
 		width: 100%;	
 	}
 }
+
+@media (min-width: 375px) and (max-width: 425px){
+	div.col-4{
+	flex: 0 0 100%;
+  	max-width: 100%;
+  	float: left;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
+	img[src="images/csi_header.png"]{
+	width: 80%;
+	}
+	div.col-4.resgrid{
+		width: 100%;
+		margin-left: 0px;
+		padding-left: 23%;
+		padding-right: 0px;	
+		float: left;
+	}
+	div.col-4.resgrid img{
+		object-fit: contain;
+	}
+	div.container.rescont{
+		margin-left: 0px;
+		padding: 0px 0px 0px 0px;
+
+	}
+	div.col-4.resgrid2{
+		width: 100%;	
+	}
+}

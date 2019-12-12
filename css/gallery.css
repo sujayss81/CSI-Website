@@ -93,6 +93,16 @@ div.img img{
 	width: 80%;
 	}
 }
+@media (min-width: 375px) and (max-width: 425px){
+	div.col-4{
+	flex: 0 0 100%;
+  	max-width: 100%;
+  	float: left;
+	}
+	img[src="images/csi_header.png"]{
+	width: 80%;
+	}
+}
 /*GAllery text color*/
 .g{
 	color: red;

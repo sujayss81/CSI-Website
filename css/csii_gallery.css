@@ -59,7 +59,7 @@ div.container{
 	margin-bottom: 3em;
 }
 /*Breakpoints*/
-@media (min-width: 601px) and (max-width: 1200px){
+@media (min-width: 425px) and (max-width: 768px){
 	div.col-4{
 	flex: 0 0 50%;
   	max-width: 50%;
@@ -83,14 +83,18 @@ div.container{
 	}
 }
 
-@media (min-width: 100px) and (max-width: 600px){
+@media (min-width: 375px) and (max-width: 425px){
 	div.col-4{
 	flex: 0 0 100%;
   	max-width: 100%;
   	height: 22em !important;
+  	margin-bottom: 0em;
 	}
 	img[src="images/csi_header.png"]{
 	width: 80%;
+	}
+	div.col-4 img{
+		height: 18em !important; 
 	}
 }
 /*Gallery*/
