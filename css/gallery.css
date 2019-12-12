@@ -66,7 +66,7 @@ div.img img{
 	object-fit: fill !important;
 }
 /*Breakpoints*/
-@media (min-width: 769px) and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 1200px){
 	div.col-4{
 	flex: 0 0 50%;
   	max-width: 50%;
@@ -82,13 +82,12 @@ div.img img{
 	}
 }
 
-@media (min-width: 100px) and (max-width: 768px){
+@media (min-width: 425px) and (max-width: 768px){
 	div.col-4{
 	flex: 0 0 100%;
   	max-width: 100%;
   	float: left;
-  	margin-left: auto;
-  	margin-right: auto;
+  	margin-left: 1.8em;
 	}
 	img[src="images/csi_header.png"]{
 	width: 80%;

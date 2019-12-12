@@ -69,3 +69,26 @@ ul.smedia{
 body{
 	padding-bottom: 40em;
 }
+/*Breakpoints*/
+@media (min-width: 768px) and (max-width: 1200px){
+	
+}
+
+
+@media (min-width: 425px) and (max-width: 768px){
+	div.col-6{
+		flex: 0 0 80%;
+  		max-width: 80%;
+	}
+		div.container-fluid.gform{
+		margin-top: 2%;
+		padding-left: 0em;
+		margin-right: 2em;
+		margin-bottom: 3%;
+	}
+		div.container-fluid.gmap{
+		margin-top: 4%;
+		padding-left: 0em;
+	}
+}
+
